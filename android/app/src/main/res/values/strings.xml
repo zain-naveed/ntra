@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">NTRA</string>
+    <string name="title_activity_main">ntra</string>
+    <string name="package_name">com.ntra.cp</string>
+    <string name="custom_url_scheme">com.ntra.cp</string>
+    <string name="admob_Id">ca-app-pub-1367360408572198~3977761816</string>
+
+</resources>

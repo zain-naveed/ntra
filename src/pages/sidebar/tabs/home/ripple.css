@@ -1,0 +1,27 @@
+.ripple-parent {
+  position: relative;
+  overflow: hidden;
+}
+.title-heading-left {
+  text-align: center;
+}
+.fusion-builder-row-inner {
+  border-bottom: 1px solid black !important;
+}
+.fusion-layout-column {
+  width: 100% !important;
+}
+.imageframe-align-center {
+  display: flex;
+  justify-content: center;
+}
+.fusion-fullwidth {
+  border: none !important;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: capitalize;
+}
+.header_image {
+  height: 150px;
+}

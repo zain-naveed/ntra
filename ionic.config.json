@@ -1,0 +1,10 @@
+{
+  "name": "ntra",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "proxies": [{
+    "proxyUrl": "https://staging-ntra.kinsta.cloud/ntra-member-profile/"
+}]
+}

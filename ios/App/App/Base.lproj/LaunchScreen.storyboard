@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MXP-XK-rlv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Nd-4H-dDM">
+                                <rect key="frame" x="0.0" y="253" width="375" height="414"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="ymy-Lb-KWO">
+                                        <rect key="frame" x="59" y="-59" width="240" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstItem="ymy-Lb-KWO" firstAttribute="centerY" secondItem="7Nd-4H-dDM" secondAttribute="centerY" id="4xB-d7-u1B"/>
+                                    <constraint firstItem="ymy-Lb-KWO" firstAttribute="centerX" secondItem="7Nd-4H-dDM" secondAttribute="centerX" id="mGu-zG-CHu"/>
+                                </constraints>
+                            </view>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Ar0-DS-mU4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LuJ-Kq-l2W">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SPLASH" translatesAutoresizingMaskIntoConstraints="NO" id="mWy-pe-eKn">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="mWy-pe-eKn" secondAttribute="bottom" id="3U6-0h-gNn"/>
+                                    <constraint firstItem="mWy-pe-eKn" firstAttribute="leading" secondItem="LuJ-Kq-l2W" secondAttribute="leading" id="b6v-PS-eQ1"/>
+                                    <constraint firstAttribute="trailing" secondItem="mWy-pe-eKn" secondAttribute="trailing" id="kTh-cN-dPK"/>
+                                    <constraint firstItem="mWy-pe-eKn" firstAttribute="top" secondItem="LuJ-Kq-l2W" secondAttribute="top" id="rZR-Dk-CQh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Et6-Lb-PKZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Et6-Lb-PKZ" firstAttribute="trailing" secondItem="LuJ-Kq-l2W" secondAttribute="trailing" id="67p-Og-983"/>
+                            <constraint firstItem="LuJ-Kq-l2W" firstAttribute="leading" secondItem="Et6-Lb-PKZ" secondAttribute="leading" id="Egx-fg-ibM"/>
+                            <constraint firstItem="LuJ-Kq-l2W" firstAttribute="top" secondItem="MXP-XK-rlv" secondAttribute="top" id="V9w-Cw-X6c"/>
+                            <constraint firstAttribute="bottom" secondItem="LuJ-Kq-l2W" secondAttribute="bottom" id="o7V-Pp-Q4A"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="374.33035714285711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SPLASH" width="375" height="812"/>
+        <image name="background" width="453" height="339.5"/>
+        <image name="icon" width="91" height="144.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

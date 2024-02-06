@@ -1,0 +1,15 @@
+.tabs{
+    font-size: 12px !important;
+    font-weight: 500 !important;
+  
+  }
+  .color{
+  color: var(--ion-tab-bar-color) !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  }
+  .select-color{
+    color: var(--ion-tab-bar-color-selected) !important;
+    font-size: 12px !important;
+  font-weight: 500 !important;
+  }

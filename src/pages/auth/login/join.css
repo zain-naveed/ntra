@@ -1,0 +1,25 @@
+.join {
+  padding: 20px 20px;
+}
+.colr {
+  background-color: #e4e4e4;
+}
+.join-text {
+  text-align: center;
+  padding-bottom: 20px;
+  color: rgb(0, 70, 139);
+}
+.text {
+  color: rgb(0, 70, 139);
+  cursor: pointer;
+}
+.join-button {
+  height: 40px;
+  width: 100%;
+  font-weight: 800;
+  /* font-size: 19px; */
+  background: #d11a47;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}

@@ -1,0 +1,49 @@
+.inputParent {
+  background-color: white;
+  width: 100%;
+  padding: 10px 0px;
+  padding-left: 7px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid var(--ion-color-input_border);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.inputParent > input {
+  border: none;
+  width: 75%;
+  font-weight: 100;
+}
+.inputParent > select {
+  border: none;
+  width: 75%;
+  font-weight: 100;
+}
+.inputParent > input[type="text"]:focus,
+input[type="tel"]:focus,
+select:focus {
+  border: none;
+  outline: none;
+}
+.inputParent > input[type="password"]:focus {
+  border: none;
+  outline: none;
+}
+.inputParent > input[type="password"]::placeholder {
+  font-size: 50px;
+  color: black;
+  letter-spacing: -5px;
+}
+.inputParent > input[type="text"]::placeholder,
+input[type="tel"]::placeholder {
+  color: black;
+}
+.inputParent > span {
+  font-size: 10px;
+  padding-right: 10px;
+}

@@ -1,0 +1,49 @@
+.background_one {
+  padding-top: var(--ion-safe-area-top);
+  background-color: rgb(100, 178, 232);
+  /* position: absolute; */
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  width: 80%;
+  /* padding-left: 10px; */
+  /* padding-top: 1px; */
+  color: white;
+}
+.left_Content {
+  height: 60%;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+.hyper_link {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 20px 0;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.background_two {
+  padding-top: var(--ion-safe-area-top);
+  background-color: rgb(209, 26, 71);
+  position: absolute;
+  text-align: center;
+  /* padding-top: 10px; */
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 20%;
+}
+.background_two img {
+  text-align: center;
+  /* position: absolute; */
+  /* text-align: center; */
+  /* padding-top: 10px; */
+  /* top: var(--ion-safe-area-top); */
+  /* bottom: 0;
+  right: 0; */
+}
